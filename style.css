@@ -1,0 +1,92 @@
+body{
+    background-color: #444;
+    transition: .2s;
+}
+
+.row{
+    margin: auto;
+}
+
+.all{
+    display: inline-block;
+    margin-left: 50px;
+    color: #f0f0f0;
+}
+
+.red{
+    display: inline-block;
+    margin-left: 50px;
+    color: #f0f0f0;
+}
+
+.red:hover{
+    cursor: pointer;
+    color: #f40000;
+}
+
+.yellow{
+    display: inline-block;
+    margin-left: 50px;
+    color: #f0f0f0;
+}
+
+.yellow:hover{
+    cursor: pointer;
+    color: #eeff00;
+}
+
+.green{
+    display: inline-block;
+    margin-left: 50px;
+    color: #f0f0f0;
+}
+
+.green:hover{
+    cursor: pointer;
+    color: #48ff00;
+}
+
+.box{
+    position: relative;
+    border: 5px solid;
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.redBox{
+    border-color: #f40000;
+}
+
+.yelBox{
+    border-color: #eeff00;
+}
+
+.greenBox{
+    border-color: #48ff00;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9{
+    float: left;
+    float: top;
+}
+
+.hide{
+    opacity: 1;
+    animation-name: a1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes a1{
+    to{
+        display: none;
+        opacity: 0;
+        height: 0;
+        width: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+}
